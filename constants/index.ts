@@ -9,7 +9,7 @@ export const NAV_LINKS = [
 
 // SOCIALS 
 export const SOCIALS = {
-    title: 'Social',
+    title: 'Socials ',
     links: [
         '/facebook.svg',
         '/instagram.svg',
@@ -118,4 +118,34 @@ export const THERAPYPRICING = [
         'title': 'Face Massage',
         'price': 125,
     },
+]
+
+//FOOTER ITEMS
+export const FOOTERLINKS = [
+    {
+        title: 'Useful Links',
+        links: [
+            'Home',
+            'About Us',
+            'Services',
+            'Products',
+            'Reviews',
+            'Blogs',
+            'Contact Us'
+        ],
+    }
+    // {
+    //     title: 'Locate Us',
+    //     links: [
+    //         ''
+    //     ]
+    // }
+]
+
+export const SUBSCRIBE = [
+    {
+        'id': 1,
+        'title': 'Subscribe',
+        'text': 'Sign up with your email address to receive news and updates'
+    }
 ]

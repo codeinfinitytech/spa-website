@@ -1,6 +1,7 @@
 import { SPAPRICING, THERAPYPRICING } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
+import Button from './Button'
 
 const Work = () => {
   return (
@@ -19,6 +20,13 @@ const Work = () => {
                 <span>${service.price}</span>
             </div>
           )) }
+          <div className='mx-auto flexCenter'>
+            <Button 
+            type='button'
+            title='Book Now'
+            variant='btn_dark_pink'
+            />
+          </div>
         </ul>
         <ul className='bold-16 w-full md:max-w-[40vw] bg-[#fff8f6] px-8 py-3 text-gray-90
   } gap-4 p-4'>
@@ -29,6 +37,13 @@ const Work = () => {
                 <span>${service.price}</span>
             </div>
           )) }
+          <div className='mx-auto flexCenter'>
+            <Button 
+            type='button'
+            title='Book Now'
+            variant='btn_dark_pink'
+            />
+          </div>
         </ul>
         </div>
       </div>
