@@ -6,9 +6,9 @@ import Button from './Button'
 
 const Footer = () => {
   return (
-    <footer className='border border-red-300 text-white bg-green-90 py-12'>
+    <footer className='bottom-0 text-white bg-green-90 py-12'>
       <div className='max-container padding-container flex w-full flex-col'>
-        <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row'>
+        <div className='flex flex-col items-start justify-center gap-[5%] md:flex-row'>
           <div className='gap-2 mb-5'>
             <Link href={'/'} className='flex gap-4'>
               <Image 

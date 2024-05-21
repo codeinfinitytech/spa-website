@@ -34,7 +34,54 @@ export const SERVICE = [
     { image: '/massage.png', name: 'Oil Massage', label: 'massage', amount: 'Starting from $75' }
 ]
 
-//SERVICE MENU
+
+//BLOGS
+export const BLOGS = [
+    {
+        image: '/mineral.png',
+        name: 'Mineral Salt Scrub',
+        sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
+        date: '14 Jul 2024',
+        button: 'Read More'
+    },
+    {
+        image: '/geothermal.png',
+        name: 'Journey to the Blue Lagoon',
+        sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
+        date: '05 Jan 2024',
+        button: 'Read More'
+    },
+    {
+        image: '/mineral.png',
+        name: 'The Best Time For A Jacuzzi',
+        sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
+        date: '04 Sep 2023',
+        button: 'Read More'
+    },
+    {
+        image: '/baths.png',
+        name: 'Discover Spas Near You',
+        sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
+        date: '12 Dec 2023',
+        button: 'Read More'
+    },
+    {
+        image: '/baths.png',
+        name: '10 Best Spa Resorts',
+        sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
+        date:'22 Nov 2024',
+        button: 'Read More'
+    },
+    {
+        image: '/baths.png',
+        name: 'Facial Massage Treatment',
+        sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
+        date: '22 Dec 2024',
+        button: 'Read More'
+    }
+]
+
+//PRICING
 export const SPAPRICING = [
     {
         'id': 1,
@@ -134,12 +181,6 @@ export const FOOTERLINKS = [
             'Contact Us'
         ],
     }
-    // {
-    //     title: 'Locate Us',
-    //     links: [
-    //         ''
-    //     ]
-    // }
 ]
 
 export const SUBSCRIBE = [

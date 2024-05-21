@@ -1,4 +1,5 @@
 import { About } from "@/components/About";
+import Blog from "@/components/Blog";
 import Form from "@/components/Form";
 import Hero from "@/components/Hero";
 import Product from "@/components/Product";
@@ -13,6 +14,7 @@ export default function Home() {
     <About />
     <Service />
     <Product />
+    <Blog />
     <Work />
     <Review />
     </>
