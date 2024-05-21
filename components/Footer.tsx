@@ -53,8 +53,8 @@ const Footer = () => {
               { SUBSCRIBE.map((sub) => (
                 <p className='text-gray-30' key={sub.id}>{sub.text}</p>
               ))}
-              <div className='flex gap-4'>
-                <input type="text" value='' placeholder='Email Address' className='input rounded-lg' />
+              <div className='flex flex-col md:flex-row gap-4'>
+                <input type="text" placeholder='Email Address' className='input rounded-lg' />
                 <Button 
                 type='submit'
                 title='Sign Up'

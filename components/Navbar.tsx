@@ -6,13 +6,13 @@ import Button from './Button'
 
 const Navbar = () => {
   return (
-    <nav className='border border-green-50 flexBetween max-container padding-container relative z-30 py-5'>
-        <Link href="/">
+    <nav className='flexBetween max-container padding-container relative z-10 py-5'>
+        <Link href="/" className=''>
             <Image src="/cosma.png" alt='logo' width={74} height={29} />
         </Link>
         <ul className='hidden h-full gap-12 lg:flex'>
             { NAV_LINKS.map((nav) => (
-                <Link href={nav.href} key={nav.key} className='bold-16 text-gray-10 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold'>
+                <Link href={nav.href} key={nav.key} className='bold-16 text-black/80 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold'>
                     {nav.label}
                 </Link>
             ))}
@@ -27,12 +27,14 @@ const Navbar = () => {
             </ul>
         </div>
         <div className='lg:flexCenter hidden'>
-            <Button
-            type='button'
-            title='Contact us'
-            icon= ''
-            variant='btn_pink'
-            />
+            <Link href={'/contact'}>
+                <Button
+                type='button'
+                title='Contact us'
+                icon= ''
+                variant='btn_pink'
+                />
+            </Link>
         </div>
         <Image 
         src="menu.svg"
