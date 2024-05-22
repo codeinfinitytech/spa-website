@@ -7,7 +7,7 @@ import Button from './Button'
 export const About = () => {
   return (
     <main className='bg-gray-100'>
-      <div className='padding-container max-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 md:flex-row'>
+      <div className='padding-container max-container flex flex-col-reverse gap-20 py-10 pb-32 md:gap-28 lg:py-20 md:flex-row'>
       <div className='border border-green-800'>
         <Image 
         src={'/about.png'}
