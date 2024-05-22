@@ -11,9 +11,9 @@ const page = () => {
           <h1 className="bold-32 md:bold-40 text-center py-12">Book Now</h1>
         </div>
         <div className="flex flex-col md:flex-row w-full flexCenter">
-          <div className="bg-green-300 w-full md:max-w-[40%]">
-            <div className="max-container padding-container">
-              <h2 className="bold-32 md:bold-40 py-8">
+          <div className="bg-[#FBA88F] w-full md:max-w-[40%]">
+            <div className="max-container padding-container py-2">
+              <h2 className="bold-32 md:bold-40 py-10">
                 We will take care of you!
               </h2>
               <p className="py-2">
@@ -21,17 +21,19 @@ const page = () => {
                 body and soul. All services are completed with premium products
                 by well-trained, service-oriented staff.
               </p>
-              <h3 className="bold-20 md:bold-32 py-2">Get in Touch</h3>
+              <h3 className="bold-20 md:bold-32 py-4">Get in Touch</h3>
               <p className="regular-16 py-2">
                 KK 103 AV, Kimironko <br /> Kigali, Rwanda{" "}
               </p>
-              <span>
-                <b>Phone number:</b> +250 793 901 537
-              </span>
-              <br />
-              <span>
-                <b>Email:</b> cosmasmassagehouseltd@gmail.com
-              </span>
+              <div className="py-4">
+                <span>
+                  <b>Phone number:</b> +250 793 901 537
+                </span>
+                <br />
+                <span>
+                  <b>Email:</b> cosmasmassagehouseltd@gmail.com
+                </span>
+              </div>
               <div className="flexEnd py-4">
                 <Image
                   src={`/tools.png`}
@@ -44,16 +46,16 @@ const page = () => {
             </div>
           </div>
           {/* Contact Form */}
-          <div className="bg-red-300 w-full md:max-w-[60%] ">
+          <div className="bg-black/70 text-white w-full md:max-w-[60%] ">
             <div className="max-container padding-container py-10">
               <form action="" method="post" className="">
                 <div className="w-full py-2">
-                  <label htmlFor="">
+                  <label htmlFor="" className="py-2">
                     Name<sub>(required)</sub>
                   </label>
                   <div className="flex gap-4 w-full">
                     <div>
-                      FirstName
+                       <span className="py-2">FirstName</span>
                       <input
                         type="text"
                         name=""
@@ -62,7 +64,7 @@ const page = () => {
                       />
                     </div>
                     <div>
-                      <span>LastName</span>
+                      <span className="py-4">LastName</span>
                       <input
                         type="text"
                         name=""
@@ -73,19 +75,19 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label htmlFor="">
+                  <label htmlFor="" className="py-2">
                     Email<sub>(required)</sub>
                   </label>
                   <input type="text" className="input" />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label htmlFor="">
+                  <label htmlFor="" className="py-2">
                     Phone Number<sub>(required)</sub>
                   </label>
                   <input type="text" className="input" />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label htmlFor="">
+                  <label htmlFor="" className="py-2">
                     Select Service<sub>(required)</sub>
                   </label>
                   <select name="" id="" className="input">
@@ -98,8 +100,8 @@ const page = () => {
                     <option value="">Hot Stone Spa</option>
                   </select>
                 </div>
-                <div className="flex flex-col">
-                  <label htmlFor="">
+                <div className="flex flex-col py-2">
+                  <label htmlFor="" className="py-2">
                     Date<sub>(required)</sub>
                   </label>
                   <input type="date" className="input" />

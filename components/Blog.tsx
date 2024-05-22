@@ -5,7 +5,7 @@ import { Calendar } from 'react-feather'
 
 const Blog = () => {
   return (
-    <section className='border border-yellow-200 '>
+    <section className=''>
         <div className='max-container padding-container w-full'>
             <div>
                 <h1 className='bold-32 md:bold-40 text-center flexCenter py-10'>Welcome To Home of Tranquility,<br /> Relaxation and Respite.</h1>
@@ -14,7 +14,7 @@ const Blog = () => {
             <div className='grid md:grid-cols-3 gap-4'>
                 { BLOGS.map((blog) => (
                     <div className='' key={blog.name}>
-                        <Image src={blog.image} alt={blog.name} width={400} height={500}/>
+                        <Image src={blog.image} alt={blog.name} width={400} height={500} className='w-full' />
                         <div className='p-4 bg-black/80 text-gray-10 regular-14'>
                             <h3 className='bold-20'>{blog.name}</h3>
                             <div className='flex justify-end gap-1'>
