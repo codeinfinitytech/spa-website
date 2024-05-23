@@ -1,10 +1,37 @@
+"use client"
 import { FOOTERLINKS, SERVICE, SOCIALS, SUBSCRIBE } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Button from './Button'
+import { toast } from 'sonner'
 
 const Footer = () => {
+
+  const handleSub = async (e: any) => {
+    e.preventDefault();
+
+    const email = String(e.target.email.value);
+
+    const response = await fetch('/api/subscribe', {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(email)
+    });
+
+    if (response.ok) {
+      toast.success("Thank you for subscribing to our newsletters!");
+
+      e.target.email.value = "";
+    }
+    else {
+      toast.error("Not subscribed!");
+      console.log("Error occured when subscribing."); 
+    }
+  }
+
   return (
     <footer className='bottom-0 text-white bg-green-90 py-12'>
       <div className='max-container padding-container flex w-full flex-col'>
@@ -53,14 +80,14 @@ const Footer = () => {
               { SUBSCRIBE.map((sub) => (
                 <p className='text-gray-30' key={sub.id}>{sub.text}</p>
               ))}
-              <div className='flex flex-col md:flex-row gap-4'>
-                <input type="text" placeholder='Email Address' className='input rounded-lg' />
+              <form onSubmit={handleSub} className='flex flex-col md:flex-row gap-4'>
+                <input type="text" placeholder='Email Address' id='email' className='input rounded-lg' />
                 <Button 
                 type='submit'
                 title='Sign Up'
                 variant='btn_pink'
                 />
-              </div>
+              </form>
             </FooterColumn>
             <div className='flex flex-col gap-5'>
           <FooterColumn title={SOCIALS.title}>

@@ -26,7 +26,7 @@ const page = () => {
             <div className='grid md:grid-cols-3 gap-4 mb-20'>
                 { BLOGS.map((blog) => (
                     <div className='' key={blog.name}>
-                        <Image src={blog.image} alt={blog.name} width={400} height={500} className="w-full"/>
+                        <Image src={blog.image} alt={blog.name} width={400} height={500} className="object-cover w-full"/>
                         <div className='p-4 bg-black/80 text-gray-10 regular-14'>
                             <h3 className='bold-20'>{blog.name}</h3>
                             <div className='flex justify-end gap-1'>
