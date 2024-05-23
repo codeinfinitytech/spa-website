@@ -59,22 +59,22 @@ export const BLOGS = [
         button: 'Read More'
     },
     {
-        image: '/baths.png',
+        image: '/pexels-anta.jpg',
         name: 'Discover Spas Near You',
         sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
         date: '12 Dec 2023',
         button: 'Read More'
     },
     {
-        image: '/baths.png',
+        image: '/pexels-cottonbro.jpg',
         name: '10 Best Spa Resorts',
         sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
         date:'22 Nov 2024',
         button: 'Read More'
     },
     {
-        image: '/baths.png',
-        name: 'Facial Massage Treatment',
+        image: '/pexels-elly.jpg',
+        name: 'Backbone Massage Treatment',
         sample: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos praesentium magni blanditiis culpa expedita nobis ab nihil deleniti. Facilis, ratione ipsa. Tempore saepe expedita modi cum officia, voluptatem reprehenderit!',
         date: '22 Dec 2024',
         button: 'Read More'

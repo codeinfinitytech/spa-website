@@ -7,15 +7,15 @@ const Service = () => {
   return (
     <section className=' pb-10'>
       <div className='flex'>
-        {/* <div className='h-[10vw] w-full'>
+        <div className='h-[10vw] w-full'>
         <Image 
-        src={'/pexels-cottonbro.jpg'}
+        src={'/portrait-femme.png'}
         alt='service'
         width={1440}
         height={720}
         />
-        </div> */}
-        <div className='w-1/2 '></div>
+        </div>
+        <div className='w-1/2'></div>
       <div className='padding-container max-container mx-auto flexCenter'>
         <div className='mt-10'>
           <h2 className='bold-20 lg:bold-32 pb-8 '>Our Spa Hot Service</h2>

@@ -1,11 +1,8 @@
 import  nodemailer from "nodemailer"
 
 export default async function (req,res){
-    const { username,email,message } = req.body
+    const { email } = req.body
 
-    const data = {
-        username,email,message
-    }
     const user ='ngabosevelin@gmail.com' 
 
     const transporter = nodemailer.createTransport({
@@ -19,14 +16,12 @@ export default async function (req,res){
     });
     try {
         const mail = await transporter.sendMail({
-            from: user,
+            from: email,
             to: "infinitytechsolution7@gmail.com",
             replyTo: email,
-            subject: `Infinity Tech Client ${username}`,
+            subject: `Cosmas Newsletter Subscription Client ${username}`,
             html:`
-            <p>Name: ${username}</p>
-            <p>Email: ${email}</p>
-            <p>Message: ${message}</p>
+            <p>The client has subscribed for Cosmas daily newsletters, blogs and new posts.</p>
             `
 
         })
@@ -37,7 +32,7 @@ export default async function (req,res){
     } catch (error) {
         console.log(error);
         res.status(500).json({
-            message: "coul not send the email. your  message was not sent"
+            message: "couldnot send the email. your  message was not sent"
         })
         
     }
