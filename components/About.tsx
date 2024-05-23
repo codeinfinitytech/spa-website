@@ -18,11 +18,10 @@ export const About = () => {
       </div>  
       <div className='text-gray-50 leading-7'>
         <h2 className='text-black mb-5 bold-32 lg:bold-40 xl:max-w-[520px]'>Natural &amp; Relaxiable </h2>
-        <p className=' mb-4'>We have more than 25 years of experience and provide the best Spa service with 100% clients Satisfaction.</p>
-        <p className=''>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <p className=' mb-4'>We have more than 25 years of experience and provide the best Spa service with 100% clients satisfaction.</p>
         <ul className='block mt-6 mb-5 ml-6'>
           { ABOUTUS.map((text) => (
-            <div className='flex' key={text.word}>
+            <div className='flex gap-1' key={text.word}>
               <span>{text.number}.</span>
               <p className='' >{text.word}</p>
             </div>

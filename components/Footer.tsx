@@ -75,7 +75,7 @@ const Footer = () => {
           ))}
         </div>
           
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 mt-6'>
             <FooterColumn title='Subscribe'>
               { SUBSCRIBE.map((sub) => (
                 <p className='text-gray-30' key={sub.id}>{sub.text}</p>

@@ -8,7 +8,7 @@ const Work = () => {
     <section className='py-12 text-black/80'>
       <div className='max-container padding-container relative w-full gap-4'>
         <h1 className='bold-32 lg:bold-40 mb-4 block gap-4 flexCenter'>Spa &amp; Therapy Pricing</h1>
-        <p className='flexCenter md:w-[80%] mx-auto text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quia provident officiis molestiae ad fugiat. Doloremque accusantium iusto fuga voluptatibus, adipisci voluptate quaerat a quidem fugiat numquam, amet exercitationem accusamus?</p>
+        <p className='flexCenter md:w-[80%] mx-auto text-center'>Our pricing at COSMAS MASSAGE HOUSE LTD is designed to offer exceptional value and flexibility, ensuring you can find the perfect treatment to fit your needs and budget. We offer a variety of individual services as well as discounted packages for extended pampering sessions.</p>
       <div className='w-full py-10 block md:flex md:justify-between items-center justify-center'>
 
         <ul className='bold-16 w-full md:max-w-[40vw] bg-[#fff8f6] px-8 py-3 text-gray-90

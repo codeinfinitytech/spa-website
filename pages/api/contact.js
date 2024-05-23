@@ -20,7 +20,7 @@ export default async function (req,res){
     try {
         const mail = await transporter.sendMail({
             from: user,
-            to: "infinitytechsolution7@gmail.com",
+            to: "mzeegustmann12@gmail.com",
             replyTo: email,
             subject: `Sauna and Massage Client ${username}`,
             html:`
