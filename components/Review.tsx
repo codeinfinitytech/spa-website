@@ -14,7 +14,7 @@ const Review = () => {
         />
       </div>
       <div className=' w-full md:w-[50%] mx-auto'>
-        <h1 className=' md:bold-32 mb-10 text-3xl font-bold text-black/90'>Client Expression</h1>
+        <h1 className=' md:bold-32 mb-10 text-3xl font-bold text-black/90'>Clients Expression</h1>
         <p className='mb-10 whitespace-wrap text-black/70'>&quot;COSMAS MASSAGE HOUSE LTD is my go-to place for relaxation. The massages are heavenly, and the staff is incredibly friendly and professional.&quot; <span className='bold-16'>- Sarah L.</span> 
 <br/>
 &quot; I had the most amazing facial at COSMAS MASSAGE HOUSE LTD. My skin has never felt so refreshed and rejuvenated. I can't wait to come back!&quot; <span className='bold-16'> - Emily R.</span> 
