@@ -17,9 +17,9 @@ export default async function (req,res){
     try {
         const mail = await transporter.sendMail({
             from: email,
-            to: "infinitytechsolution7@gmail.com",
+            to: "mzeegustmann12@gmail.com",
             replyTo: email,
-            subject: `Cosmas Newsletter Subscription Client ${username}`,
+            subject: 'Cosmas Newsletter Subscription Client',
             html:`
             <p>The client has subscribed for Cosmas daily newsletters, blogs and new posts.</p>
             `

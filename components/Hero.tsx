@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -14,14 +15,16 @@ const Hero = () => {
           objectFit='cover'
           />
         </div>
-        <div className='z-20 md:w-3/5 text-white padding-container my-64'>
+        <div className='z-20 md:w-3/5 text-white padding-container my-52'>
           <h1 className='bold-40 md:bold-52 lg:bold:88'>Beauty &amp; <br />SPA Center</h1>
-          <p className='regular-16 mt-6 mb-10 '>It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-          <Button 
-          type='button'
-          title='Our services'
-          variant='btn_pink'
-          />
+          <p className='regular-16 mt-6 mb-10 '>COSMAS MASSAGE HOUSE LTD invites you to experience a new level of relaxation. Our luxurious treatments are designed to melt away your stress and revitalize your body and mind.</p>
+          <Link href={'#service'} scroll={false}>
+            <Button 
+            type='submit'
+            title='Discover More'
+            variant='btn_pink'
+            />
+          </Link>
         </div>
       </div>
 
