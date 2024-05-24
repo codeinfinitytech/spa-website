@@ -44,7 +44,7 @@ const Footer = () => {
               width={50}
               height={50}
               />
-            <h2 className='bold-20'>COSMAS' MASSAGE HOUSE LTD</h2>
+            <h2 className='bold-20'>COSMAS&apos; MASSAGE HOUSE LTD</h2>
             </Link>
             <div className='mt-8'>
               <Link href={'/'} className='text-gray-30 '>KG 30 Avenue N&deg;90, Gisozi</Link><br />
@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
         </div>
         <div className='mt-4 border bg-gray-20' />
-        <p className='regular-14 w-full text-center text-gray-30 mt-4'> &copy;2024 Cosmas' Massage LTD | All rights reserved</p>
+        <p className='regular-14 w-full text-center text-gray-30 mt-4'> &copy;2024 Cosmas&apos; Massage LTD | All rights reserved</p>
       </div>
     </footer>
   )

@@ -9,7 +9,7 @@ const Product = () => {
       <div className='w-full md:max-w-[50%]'>
         <h2 className='bold-20 lg:bold-32 mb-4 block gap-4'>Our Products</h2>
         <p className='mb-4'>At COSMAS MASSAGE HOUSE LTD, we offer a variety of treatments tailored to meet your unique needs. Our skilled therapists use the finest products and techniques to ensure you receive the best care.</p>
-        <span className='mt-10 mb-10'>"Book Your Escape Today and let us pamper you with the finest, natural products that nourish your body and elevate your senses."</span>
+        <span className='mt-10 mb-10'>&apos;Book Your Escape Today and let us pamper you with the finest, natural products that nourish your body and elevate your senses.&apos;</span>
         <div className='hidden md:block mt-10'>
         <Button 
         type='button'

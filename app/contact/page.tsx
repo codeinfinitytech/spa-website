@@ -2,16 +2,13 @@
 import Button from "@/components/Button";
 import Image from "next/image";
 import { Toaster, toast } from "sonner";
-import React, { useState } from "react";
+import React from "react";
 
 
 const page = () => {
-  const [ loading, setLoading ] = useState(false);
 
   async function handleSubmit(e: any) {
     e.preventDefault();
-    setLoading(true);
-
 
     const data = {
       username: String(e.target.fname.value) + " " + 
@@ -32,7 +29,6 @@ const page = () => {
 
       if (response.ok) {
         toast.success("Booking Sent Successfully");
-        setLoading(false);
 
         //reset the form
         e.target.fname.value = "";
@@ -44,7 +40,6 @@ const page = () => {
       }
       if (!response.ok) {
         toast.error("Your booking is not sent, Please try again!");
-        setLoading(false);
       }
     }
 
@@ -52,10 +47,6 @@ const page = () => {
     <section className="">
       <div className="">
         <div className="w-full h-[100%] bg-gray-20 py-24">
-          {/* <Image 
-          src={'/hots.jpg'} 
-          alt="book"
-          fill/> */}
           <h1 className="z-10 bold-32 md:bold-40 text-center py-12">Book Now</h1>
         </div>
         <div className="flex flex-col md:flex-row w-full flexCenter">
@@ -176,7 +167,6 @@ const page = () => {
                     type="submit"
                     title="Book Now"
                     variant="btn_dark_pink"
-                    disabled = {loading}
                   />
                   <Toaster richColors />
                 </div>
